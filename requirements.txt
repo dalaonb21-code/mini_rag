@@ -1,0 +1,32 @@
+# Crawl & parse
+requests>=2.31
+feedparser>=6.0
+beautifulsoup4>=4.12
+lxml>=4.9
+
+# NLP & embedding
+torch>=2.0
+transformers>=4.30
+sentence-transformers>=2.2
+rank_bm25>=0.2.2
+datasketch>=1.6
+
+# Vector DB (FAISS)
+faiss-cpu>=1.7
+
+# LLM
+openai>=1.30
+
+# Serve
+fastapi>=0.111
+uvicorn>=0.30
+pydantic>=2.7
+
+# Eval
+datasets>=2.19
+ragas>=0.1.8
+
+# Utils
+python-dotenv>=1.0
+numpy>=1.26
+jieba>=0.42

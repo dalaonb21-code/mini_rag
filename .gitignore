@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.idea/
+eval/eval_results.json
+eval/report.md
+
+# 模型文件
+model/
+
+# FAISS 数据（运行时生成）
+data/
+
+# 调试脚本
+test/
+test_embed.py
+test_query.py
